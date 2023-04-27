@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header, .footer {
+  background-color: #B94429;
+  color: #FDDA7D;
+  font-size: xx-large;
+  font-weight: bolder;
+  padding: 20px 0px;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+}
+
+.header {
+  box-shadow: 2px 2px 8px black;
+  top: 0;
+}
+
+body {
+  background-color: #32424B;
+  color: #C09576;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5% auto 5% auto;
+  max-width: 70%;
+}
+
+.input-container {
+  align-items: center;
+  display: flex;
+  font-size: x-large;
+  font-weight: bolder;
+  justify-content: center;
+  margin: 2%;
+  width: 100%;
+}
+
+.input-field {
+  margin: 15px;
+}
+
+.add-task-btn {
+  height: 50%;
+  width: 15%;
+  margin: 1%;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.list-item {
+  align-items: center;
+  background-color: rgb(255,255,255, 0.9);
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px black;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bolder;
+  list-style: none;
+  margin: 2%;
+  max-width: 40%;
+  padding: 1% 2% 1% 2%;
+  text-align: center;
+}
+
+.remove-task-btn {
+  background-color: #32424B;
+  border-radius: 10px;
+  color: #C09576;
+  font-weight: bolder;
+  height: 50%;
+  padding: 1%;
+  width: 15%;
+}
+
+.remove-task-btn:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.footer {
+  bottom: 0;
+  box-shadow: -2px -2px 8px black;
+}
