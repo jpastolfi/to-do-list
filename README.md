@@ -7,32 +7,12 @@ Hi, there! This is a basic to do list I've developed using React during my studi
 
 ## Functionalities
 
-What the app can do
+As a common to do list, you can:
+- Add tasks to a tasklist
+- Remove tasks in whichever order you want
+- Click the 'undo' button to undo the last change. This includes adding and also removing a task.
 
 
 ## Autores
 
-- [João Astolfi](https://www.github.com/jpastolfi)
-
-
-## Funcionalidades
-
-- Temas dark e light
-- Preview em tempo real
-- Modo tela cheia
-- Multiplataforma
-
-
-## Aprendizados
-
-O que você aprendeu construindo esse projeto? Quais desafios você enfrentou e como você superou-os?
-
-
-## Rodando os testes
-
-Para rodar os testes, rode o seguinte comando
-
-```bash
-  npm run test
-```
-
+- [João Astolfi](https://www.linkedin.com/in/jpastolfi/)

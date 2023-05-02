@@ -54,7 +54,7 @@ class InputField extends React.Component {
 				{ taskList.map((task, index) => (
 					<li className='list-item' key={index+1}>
 						<TaskList task={task} />
-						<button onClick={ () => this.removeTask(task) } className='remove-task-btn' type="button">Excluir</button>
+						<button onClick={ () => this.removeTask(task) } className='remove-task-btn' type="button">Remove</button>
 					</li>
 				)) }
 				</ul>
